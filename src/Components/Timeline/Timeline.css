@@ -1,0 +1,41 @@
+#main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  background-color: rgb(47,49,47);
+  /* background-image: url('./Assets/Background.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 100% 100%; */
+}
+#my_timeslines {
+  /* min-height: 100vh; */
+  background-color: rgb(47,49,47);
+}
+
+#topbar {
+  /* flex: 1.25; */
+  /* background-color: pink; */
+}
+#visualization {
+  flex: 0.5;
+  /* background-color: aqua; */
+}
+#eventSlider{
+
+}
+#footer {
+  /* background-color: navy; */
+  /* flex: 1.75; */
+}
+div[role=slider] {
+  background-color: black;
+}
+
+/* .csv-reader-input {
+  background-color: violet;
+}
+.csv-input {
+  background-color: pink;
+} */
